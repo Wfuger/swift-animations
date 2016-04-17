@@ -12,6 +12,12 @@
 		767BB6C01CC2F223009DD360 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767BB6BE1CC2F223009DD360 /* Main.storyboard */; };
 		767BB6C21CC2F223009DD360 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767BB6C11CC2F223009DD360 /* Assets.xcassets */; };
 		767BB6C51CC2F223009DD360 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767BB6C31CC2F223009DD360 /* LaunchScreen.storyboard */; };
+		767BB6F41CC34EBB009DD360 /* alien-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 767BB6EE1CC34EBB009DD360 /* alien-1.png */; };
+		767BB6F51CC34EBB009DD360 /* alien-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 767BB6EF1CC34EBB009DD360 /* alien-2.png */; };
+		767BB6F61CC34EBB009DD360 /* alien-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 767BB6F01CC34EBB009DD360 /* alien-3.png */; };
+		767BB6F71CC34EBB009DD360 /* alien-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 767BB6F11CC34EBB009DD360 /* alien-4.png */; };
+		767BB6F81CC34EBB009DD360 /* alien-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 767BB6F21CC34EBB009DD360 /* alien-5.png */; };
+		767BB6F91CC34EBB009DD360 /* alien-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 767BB6F31CC34EBB009DD360 /* alien-6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		767BB6C11CC2F223009DD360 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		767BB6C41CC2F223009DD360 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		767BB6C61CC2F223009DD360 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767BB6EE1CC34EBB009DD360 /* alien-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien-1.png"; sourceTree = "<group>"; };
+		767BB6EF1CC34EBB009DD360 /* alien-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien-2.png"; sourceTree = "<group>"; };
+		767BB6F01CC34EBB009DD360 /* alien-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien-3.png"; sourceTree = "<group>"; };
+		767BB6F11CC34EBB009DD360 /* alien-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien-4.png"; sourceTree = "<group>"; };
+		767BB6F21CC34EBB009DD360 /* alien-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien-5.png"; sourceTree = "<group>"; };
+		767BB6F31CC34EBB009DD360 /* alien-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alien-6.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				767BB6C11CC2F223009DD360 /* Assets.xcassets */,
 				767BB6C31CC2F223009DD360 /* LaunchScreen.storyboard */,
 				767BB6C61CC2F223009DD360 /* Info.plist */,
+				767BB6EE1CC34EBB009DD360 /* alien-1.png */,
+				767BB6EF1CC34EBB009DD360 /* alien-2.png */,
+				767BB6F01CC34EBB009DD360 /* alien-3.png */,
+				767BB6F11CC34EBB009DD360 /* alien-4.png */,
+				767BB6F21CC34EBB009DD360 /* alien-5.png */,
+				767BB6F31CC34EBB009DD360 /* alien-6.png */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -123,7 +141,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				767BB6C51CC2F223009DD360 /* LaunchScreen.storyboard in Resources */,
+				767BB6F81CC34EBB009DD360 /* alien-5.png in Resources */,
+				767BB6F61CC34EBB009DD360 /* alien-3.png in Resources */,
+				767BB6F41CC34EBB009DD360 /* alien-1.png in Resources */,
 				767BB6C21CC2F223009DD360 /* Assets.xcassets in Resources */,
+				767BB6F51CC34EBB009DD360 /* alien-2.png in Resources */,
+				767BB6F71CC34EBB009DD360 /* alien-4.png in Resources */,
+				767BB6F91CC34EBB009DD360 /* alien-6.png in Resources */,
 				767BB6C01CC2F223009DD360 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
