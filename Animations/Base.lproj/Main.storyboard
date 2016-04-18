@@ -27,7 +27,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Mt-aX-ngL">
                                 <rect key="frame" x="109" y="477" width="157" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <state key="normal" title="Update Image"/>
+                                <state key="normal" title="Start/Stop"/>
                                 <connections>
                                     <action selector="updateimage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8WY-8z-Kmc"/>
                                 </connections>

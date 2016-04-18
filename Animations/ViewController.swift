@@ -11,21 +11,37 @@ import UIKit
 class ViewController: UIViewController {
     var alien = 1
     var count = 0
+    var isAnimating = false
     
     var timer = NSTimer()
     
     @IBOutlet var alienImage: UIImageView!
     
     @IBAction func updateimage(sender: AnyObject) {
-        count += 1
-
-        timer = NSTimer()
-
-        if (count <= 1) {
-            startTimer()
+        
+        if isAnimating == false {
+            
+            timer = NSTimer.scheduledTimerWithTimeInterval(0.15, target: self, selector: #selector(ViewController.doAnimation), userInfo: nil, repeats: true)
+            
+            isAnimating = true
+        
         } else {
-            resetTimer()
+            
+            timer.invalidate()
+            
+            isAnimating = false
+            
         }
+        
+//        count += 1
+//
+//        timer = NSTimer()
+//
+//        if (count <= 1) {
+//            
+//        } else {
+//            resetTimer()
+//        }
 //        alien += 1
 //        if alien == 3 {
 //
@@ -71,15 +87,15 @@ class ViewController: UIViewController {
         alienImage.image = UIImage(named: "alien-\(alien).png")
     }
     
-    func startTimer() {
-        timer = NSTimer.scheduledTimerWithTimeInterval(0.15, target: self, selector: #selector(ViewController.doAnimation), userInfo: nil, repeats: true)
-    }
-    
-    func resetTimer() {
-        timer.invalidate()
-        
+//    func startTimer() {
 //        timer = NSTimer.scheduledTimerWithTimeInterval(0.15, target: self, selector: #selector(ViewController.doAnimation), userInfo: nil, repeats: true)
-    }
+//    }
+    
+//    func resetTimer() {
+//        timer.invalidate()
+    
+//        timer = NSTimer.scheduledTimerWithTimeInterval(0.15, target: self, selector: #selector(ViewController.doAnimation), userInfo: nil, repeats: true)
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -99,7 +115,7 @@ class ViewController: UIViewController {
 //        alienImage.center = CGPointMake(alienImage.center.x - 400, alienImage.center.y) 
         // sets image off the screen to the left before app's loaded
         
-        self.alienImage.alpha = 0
+//        self.alienImage.alpha = 0
         // sets opacity of image to 0
         
 //        self.alienImage.frame = CGRectMake(50, 175, 250, 250)
@@ -113,7 +129,7 @@ class ViewController: UIViewController {
 //            self.alienImage.center = CGPointMake(self.alienImage.center.x + 400, self.alienImage.center.y)
             // set the end point to center of screen giving a slide in animation
             
-            self.alienImage.alpha = 1
+//            self.alienImage.alpha = 1
             // sets opacity of image to 100 giving a fade in animation
             
 //        }
