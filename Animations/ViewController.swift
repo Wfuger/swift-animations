@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     var alien = 1
-    var count = 0
+    
     var isAnimating = false
     
     var timer = NSTimer()
